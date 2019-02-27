@@ -91,30 +91,76 @@
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="Octomber 2017 – December 2017">
-                <h3>Vistaran Techtronix</h3>
-                <h4>Trainee</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="Janurary 2018 – June 2018">
+        <div class="container">
+            <div class="experience-block">
+                <div class="row">
+                    <div class="experience shadow-large">
+                        
+        <!-- <div id="experience-timeline"> -->
+            <!--<div data-date="Octomber 2017 – December 2017"> -->
+                             <div class="project shadow-large">
+                    <div class="project-image">
+                        <img target="_blank" src="images/vistaran.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Vistaran Techtronix </h3>
+                            <h4> Junior System Administrator | DevOps | AWS </h4>
+                        <p>
+                            Server Deployment:-  Create Server on AWS EC2 Instance. Configuring Lamp Stack in a server.(  Apache2, phpMyAdmin, MySql). Configuring Cloudwatch. Create Database & User. Give privileges to the User. Migration of database and server.    
+                        </p>
+                        <!--<a href="https://www.vistaran.tech/" target="_blank">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                        </div>
+                    </div>   
+                </div>       
+            </div>   
+        <!--    <div data-date="Janurary 2018 – June 2018">
                 <h3>Vistaran Techtronix</h3>
                 <h4>Junior System Administrator | DevOps | AWS</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                 </p>
-            </div>
+            </div> -->
 
-            <div data-date="July 2018">
+            <!-- <div data-date="July 2018">
                 <h3>einfochips (An Arrow Company)</h3>
                 <h4>Engineer</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                 </p>
-            </div>
+            </div> 
+            <div class="project-info">
+                        <h3>einfochips</h3>
+                        <p>
+                            Server Deployment:-  Create Server on AWS EC2 Instance. Configuring Lamp Stack in a server.(  Apache2, phpMyAdmin, MySql). Configuring Cloudwatch. Create Database & User. Give privileges to the User. Migration of database and server.    
+                        </p>
+                        <a href="https://www.vistaran.tech/" target="_blank">View Project</a>
+            </div>     -->
+
+                <div class="project shadow-large">
+                    <div class="container">
+                        <div class="project-image">
+                            <img  class="project-img" target="_blank" src="images/eic-arrow-logo-dark-320.png" />
+                            <!--<div class="middle">
+                                <a href="https://madhuras.com/" target="_blank"></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>eInfochips</h3>
+                            <h4> Engineer </h4>
+                        <p>
+                            Server Development:- Create Server on AWS ELB. Configure lamp stack in a server(Apache2, MySQL)Configuring Cloudwatch. Create Database & User. Migration of server.
+                        </p>
+                         <!--<a href="https://madhuras.com/" target="_blank">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
         </div>
     </div>
     <!-- End #experience -->
@@ -156,7 +202,7 @@
                         <div class="project-image">
                             <img style="width:100%" class="project-img" target="_blank" src="images/madhuras.png" />
                             <div class="middle">
-                                <div class="text">John Doe</div>
+                                <a href="https://madhuras.com/" target="_blank"></a>
                             </div>
                         </div>
                     </div>
@@ -255,8 +301,7 @@
   position: relative;
 }
 
-.project-img {
-  border: 1px solid #ddd;
+.project-img { 
   border-radius: 4px;
   padding: 5px;
   transition: .5s ease;
